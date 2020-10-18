@@ -24,9 +24,11 @@ def get_japanese_emoticon(data, a_emoticon)
   check_emoticon.each do |definition, final_hash|
     if final_hash[:english] ==a_emoticon
       final_hash[:japanese]
+    else 
+      "Sorry, that emoticon was not found "
+      
     end 
-  else 
-    "Sorry, that emoticon was not found "
+    
   end 
   
 end
