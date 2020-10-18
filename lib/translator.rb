@@ -35,7 +35,7 @@ end
     #if emoticon_language[:japanese] == j_emoticon
      # #binding.pry
       #return definition
-     e#nd
+     #end
   # end
 #Sorry, that emoticon was not found"
 #end
