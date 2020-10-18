@@ -26,7 +26,6 @@ def get_japanese_emoticon(data, final_hash)
       final_hash[:japanese]
     else 
       "Sorry, that emoticon was not found "
-      
     end 
     
   end 
