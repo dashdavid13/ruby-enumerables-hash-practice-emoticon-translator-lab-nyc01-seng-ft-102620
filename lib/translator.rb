@@ -18,8 +18,8 @@ end
 
 
 
-def get_japanese_emoticon
-  
+def get_japanese_emoticon(data, final_hash)
+ 
 end
 
 
@@ -28,6 +28,17 @@ def get_english_meaning
   # code goes here
 end
 
+
+#def get_english_meaning(data, j_emoticon)
+  ##check_emoticon.each do |definition , emoticon_language|
+    
+    #if emoticon_language[:japanese] == j_emoticon
+     # #binding.pry
+      #return definition
+     e#nd
+  # end
+#Sorry, that emoticon was not found"
+#end
 
 
 
