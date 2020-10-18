@@ -19,7 +19,7 @@ end
 
 
 def get_japanese_emoticon(data, final_hash)
-  check_emoticons = YAML.load_(data)
+  check_emoticons = YAML.load_library(data)
 end
 
 
