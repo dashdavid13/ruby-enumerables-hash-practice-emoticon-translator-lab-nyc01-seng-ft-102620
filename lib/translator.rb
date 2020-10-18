@@ -38,8 +38,8 @@ def get_english_meaning(data, j_emoticon)
   check_emoticons = load_library(data)
   #binding.pry
   check_emoticons.each do |definition, final_hash|
-    if final_hash[:english] == a_emoticon 
-      return final_hash[:japanese]
+    if final_hash[:japanese] == j_emoticon 
+      return final_hash[:english]
     end 
   end 
   "Sorry, that emoticon was not found"
