@@ -22,7 +22,7 @@ def get_japanese_emoticon(data, final_hash)
   check_emoticons = load_library(data)
   binding.pry
   check_emoticon.each do |definition, final_hash|
-    if final_hash[:english] ==a_emoticon
+    if final_hash[:english] ==definition
   end 
 end
 
