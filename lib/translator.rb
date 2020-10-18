@@ -11,7 +11,7 @@ def load_library(data)
     final_hash[english_word][:english] = emoticons_set[0]
     final_hash[english_word][:japanese] = emoticons_set[1]
   end
-  binding.pry
+  #binding.pry
   final_hash
 end 
 
