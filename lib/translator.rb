@@ -47,16 +47,4 @@ end
 
 
 
-#def get_english_meaning(data, j_emoticon)
-  ##check_emoticon.each do |definition , emoticon_language|
-    
-    #if emoticon_language[:japanese] == j_emoticon
-     # #binding.pry
-      #return definition
-     #end
-  # end
-#Sorry, that emoticon was not found"
-#end
-
-
 
