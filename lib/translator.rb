@@ -35,15 +35,16 @@ end
 
 
 def get_english_meaning(data, j_emoticon)
-   check_emoticons = load_library(data)
+  check_emoticons = load_library(data)
   #binding.pry
-  check_emoticons[:japanese] == j_emoticon 
-      return final_hash[:english]
+  check_emoticons.each do |definition, final_hash|
+    if final_hash[:english] == a_emoticon 
+      return final_hash[:japanese]
     end 
   end 
   "Sorry, that emoticon was not found"
 end
-end
+
 
 
 #def get_english_meaning(data, j_emoticon)
